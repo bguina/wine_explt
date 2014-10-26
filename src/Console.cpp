@@ -25,7 +25,7 @@ Console::Console()
     m_frame = static_cast<CEGUI::FrameWindow*>(winmgr.createWindow("TaharezLook/FrameWindow"));
     m_frame->setPosition(CEGUI::UVector2(CEGUI::UDim(.0f, .0f), CEGUI::UDim(.0f, .0f)));
     m_frame->setSize(CEGUI::UVector2(CEGUI::UDim(1.0f, .0f), CEGUI::UDim(.33f, .0f)));
-    m_frame->setText("ZuberWine Console");
+    m_frame->setText("WineExplt Console");
     sheet.add_child(m_frame);
     
     m_content = static_cast<CEGUI::MultiLineEditbox*>(winmgr.createWindow("TaharezLook/MultiLineEditbox"));

@@ -1,5 +1,5 @@
 DESTDIR=..
-NAME=zuberwine.so
+NAME=wineexplt.so
 CC=gcc
 CXX=g++
 CP=cp -r
